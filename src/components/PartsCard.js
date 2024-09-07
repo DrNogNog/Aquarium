@@ -1,4 +1,3 @@
-// PartsCard.js
 import React from "react";
 import {
   Card,

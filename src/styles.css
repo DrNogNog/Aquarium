@@ -61,3 +61,47 @@ body {
   padding: 16px;
   text-align: center;
 }
+
+body {
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.MuiAppBar-root {
+  background-color: #004d40; /* Deep teal for app bar */
+}
+
+.MuiButton-containedPrimary {
+  background-color: #00796b; /* Rich green for buttons */
+}
+
+.MuiTypography-root {
+  color: #212121; /* Dark text color */
+}
+
+/* Custom CSS for the Drawer */
+.MuiDrawer-paper {
+  width: 250px; /* Set the width of the side menu */
+  background-color: #004d40; /* Deep teal for drawer background */
+}
+
+.MuiListItemText-primary {
+  color: #ffffff; /* White text for list items */
+}
+
+.MuiListItem-button:hover {
+  background-color: #00796b; /* Highlight color on hover */
+}
+
+.MuiListItem-button {
+  padding: 16px; /* Adjust padding for list items */
+}
+/* styles.css */
+@media (max-width: 768px) {
+  .MuiBox-root {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .MuiTextField-root {
+    margin: 8px 0 !important;
+  }
+}
