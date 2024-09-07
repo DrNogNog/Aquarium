@@ -1,10 +1,10 @@
 // Header.js
 import React from "react";
 import { AppBar, Toolbar, Typography, Button, IconButton } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu"; // Import MenuIcon from MUI
 import { Link } from "react-router-dom";
-import MenuIcon from "@mui/icons-material/Menu"; // Import the Menu icon
 
-const Header = ({ onToggleSidebar, isSidebarOpen }) => (
+const Header = ({ onToggleSidebar }) => (
   <AppBar position="static" color="primary">
     <Toolbar>
       <IconButton
